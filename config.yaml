@@ -23,23 +23,23 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: tv.home31.pw
-    name: tv.home31.pw
+  - id: tv.boixu.com
+    name: tv.boixu.com
     description: 'Stream Movies and TV'
     url: 'https://tv.boixu.com'
     method: GET
     expectStatus: 200
     followRedirect: true
     
-  - id: ombi.home31.pw
-    name: ombi.home31.pw
+  - id: ombi.boixu.com
+    name: ombi.boixu.com
     description: 'Request new TV series and Movies'
     url: 'https://ombi.boixu.com/'
     method: GET
     expectStatus: 200
     
-  - id: cloud.home31.pw
-    name: cloud.home31.pw
+  - id: cloud.boixu.com
+    name: cloud.boixu.com
     description: 'Cloud storage'
     url: 'https://cloud.boixu.com/'
     method: GET
@@ -53,23 +53,23 @@ monitors:
     method: GET
     expectStatus: 200
     
-  - id: git.home31.pw
-    name: git.home31.pw
+  - id: git.boixu.com
+    name: git.boixu.com
     description: 'Gitlab instance'
     url: 'https://git.boixu.com/'
     method: GET
     expectStatus: 200
     followRedirect: true
     
-  - id: dash.home31.pw
-    name: dash.home31.pw
+  - id: dash.boixu.com
+    name: dash.boixu.com
     description: 'Dashboard'
     url: 'https://dash.boixu.com/'
     method: GET
     expectStatus: 200
     
-  - id: pass.home31.pw
-    name: pass.home31.pw
+  - id: pass.boixu.com
+    name: pass.boixu.com
     description: 'Bitwarden password manager'
     url: 'https://pass.boixu.com/'
     method: GET
