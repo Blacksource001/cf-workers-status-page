@@ -26,7 +26,7 @@ monitors:
   - id: tv.boixu.com
     name: tv.boixu.com
     description: 'Stream Movies and TV'
-    url: 'https://tv.boixu.com'
+    url: 'https://tv.home31.pw'
     method: GET
     expectStatus: 200
     followRedirect: true
@@ -34,14 +34,14 @@ monitors:
   - id: ombi.boixu.com
     name: ombi.boixu.com
     description: 'Request new TV series and Movies'
-    url: 'https://ombi.boixu.com/'
+    url: 'https://ombi.home31.pw/'
     method: GET
     expectStatus: 200
     
   - id: cloud.boixu.com
     name: cloud.boixu.com
     description: 'Cloud storage'
-    url: 'https://cloud.boixu.com/'
+    url: 'https://cloud.home31.pw/'
     method: GET
     expectStatus: 200
     followRedirect: true
@@ -56,7 +56,7 @@ monitors:
   - id: git.boixu.com
     name: git.boixu.com
     description: 'Gitlab instance'
-    url: 'https://git.boixu.com/'
+    url: 'https://git.home31.pw/'
     method: GET
     expectStatus: 200
     followRedirect: true
@@ -64,14 +64,14 @@ monitors:
   - id: dash.boixu.com
     name: dash.boixu.com
     description: 'Dashboard'
-    url: 'https://dash.boixu.com/'
+    url: 'https://dash.home31.pw/'
     method: GET
     expectStatus: 200
     
   - id: pass.boixu.com
     name: pass.boixu.com
     description: 'Bitwarden password manager'
-    url: 'https://pass.boixu.com/'
+    url: 'https://pass.home31.pw/'
     method: GET
     expectStatus: 200
     
