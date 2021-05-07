@@ -46,13 +46,6 @@ monitors:
     expectStatus: 200
     followRedirect: true
     
-  - id: bin.home31.pw
-    name: bin.home31.pw
-    description: 'Pastebin'
-    url: 'https://bin.home31.pw/'
-    method: GET
-    expectStatus: 200
-    
   - id: git.boixu.com
     name: git.boixu.com
     description: 'Gitlab instance'
