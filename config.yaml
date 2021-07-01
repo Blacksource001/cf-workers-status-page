@@ -46,14 +46,6 @@ monitors:
     expectStatus: 200
     followRedirect: true
     
-  - id: git.boixu.com
-    name: git.boixu.com
-    description: 'Gitlab instance'
-    url: 'https://git.home31.pw/'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    
   - id: dash.boixu.com
     name: dash.boixu.com
     description: 'Dashboard'
